@@ -8,12 +8,6 @@ print('A última letra A apareceu na posição {}'.format(frase.rfind('A')+1))
 
 
 
-
-
-
-
-
-
 # OBS: O +1 significa que a contagem dos caracteres começa em 1 e não em 0, para que o resultado corresponda à numeração tradicional.  
 # O .upper() garante que, independentemente de o usuário digitar em maiúsculas ou minúsculas, a identificação será feita corretamente.  
 # O .rfind('A') serve para localizar a última ocorrência da letra 'A', contando a partir do lado direito da string.  
